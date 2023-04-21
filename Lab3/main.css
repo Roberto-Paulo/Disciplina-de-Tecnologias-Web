@@ -1,0 +1,59 @@
+* {
+    font-family:'Times New Roman', Times, serif;
+  }
+
+
+  #h100 {color: coral;}
+  .testeh2 {color: gold;}
+  h4 { color: darkgreen;}
+
+h1{
+    background-color: darkkhaki;
+}
+
+h2{
+    background-color: chocolate;
+}
+
+h3{
+    background-color: darkslategray;
+}
+
+button {
+    position: relative;
+    top: 12cm;
+    left: 257px;
+    bottom: 20%;
+    background-color: crimson;
+}
+
+progress{
+    position: absolute;
+    left: 20%;
+    background-color: black;
+
+}
+
+label{
+    position: fixed;
+}
+
+body{
+    color: indigo;
+}
+
+span{
+    color: green;
+}
+
+.inherit {
+    color: inherit;
+}
+
+.initial{
+    color: initial;
+}
+
+.unset{
+    color: unset;
+}
