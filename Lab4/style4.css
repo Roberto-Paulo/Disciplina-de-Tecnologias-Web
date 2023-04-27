@@ -1,0 +1,61 @@
+body {
+    margin: 0;
+    padding: 0;
+  }
+  
+  .seleções {
+    display: inline-block;
+    margin: 0px;
+    width: 100px;
+  }
+
+  .seleções button{
+    display: block;
+    margin: 20px;
+    text-align: center;
+    color: black;
+    padding: 20px;
+    background: lightslategray;
+    width: 170px;
+  }
+
+
+  .texto-central {
+    margin: 0px;
+    display: inline-block;
+    width: 100vw;
+    text-align: center;
+  }
+  
+  img {
+    display: none;
+  }
+  
+  /* media queries */
+  
+  @media (min-width: 768px) {
+    .seleções {
+      width: 29vw;
+    }
+    .texto-central {
+      width: 70vw;
+      text-align: center;
+    }
+  }
+  
+  @media (min-width: 1280px) {
+    .seleções {
+      width: 15vw;
+    }
+    .texto-central {
+      width: 48vw;
+      text-align: center;
+    }
+    .imagem-brasil {
+      display: inline-block;
+      width: 35vw;
+    }
+    img {
+      display: block;
+    }
+  }
