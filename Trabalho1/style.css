@@ -633,17 +633,17 @@ header nav {
   }
 
   section.destaques h2{
-      display: flex;
-      align-self: center;
-      font-size: 35px;
-      color: yellowgreen;
+    display: flex;
+    align-self: center;
+    font-size: 35px;
+    color: yellowgreen;
   }
 
   section.destaques div.em-destaques{
-      display: flex;
-      flex-wrap: wrap;
-      flex-direction: column;
-      margin: auto;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    margin: auto;
   }
 
   section.destaques div.em-destaques div.image-destaque{
@@ -656,10 +656,10 @@ header nav {
   }
 
   section.destaques div.info-destaque{
-      width: 100%;
-      display: flex;
-      flex-direction: column;
-      font-size: small;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    font-size: small;
   }
 
   .info-destaque p{
@@ -685,41 +685,41 @@ header nav {
   }
 
   section.destaques h2{
-      display: flex;
-      align-self: center;
-      font-size: 33px;
-      color: yellowgreen;
+    display: flex;
+    align-self: center;
+    font-size: 33px;
+    color: yellowgreen;
   }
 
   section.destaques div.em-destaques{
-      display: flex;
-      flex-wrap: wrap;
-      flex-direction: column;
-      margin: auto;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    flex-direction: column;
+    margin: auto;
   }
   
-  section.destaque div.em-destaques div.image-destaque{
+  section.destaques div.em-destaques div.image-destaque{
     margin-bottom: 5%;
-    
   }
   
-  section.destaque div.em-destaques div.image-destaque img{
+  section.destaques div.em-destaques div.image-destaque img{
     width: 350px;
-    height: 250px;
+    height: 380px;
   }
 
   section.destaques div.info-destaque{
-      width: 100%;
-      display: flex;
-      flex-direction: column;
-      font-size: small;
-      
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    font-size: small;
   } 
 
   .info-destaque p{
     font-size: 17px;
     color: white;
   }
+  
   .info-destaque span{
     font-size: 21px;
     color: yellowgreen;
@@ -729,34 +729,33 @@ header nav {
 
 @media (min-width: 1024px){
   section.destaques{
-      width: 100%;
-      height: 40%;
-      display: flex;
-      margin: auto;
-      padding-top: 3%;
-      padding-bottom: 3%;
-      flex-direction: column;
+    width: 100%;
+    height: 40%;
+    display: flex;
+    margin: auto;
+    padding-top: 3%;
+    padding-bottom: 3%;
+    flex-direction: column;
   }
 
   section.destaques h2{
-      margin-bottom: 2%;
-      font-size: 30px;
-      color: yellowgreen;
-      text-align: center;
+    margin-bottom: 2%;
+    font-size: 30px;
+    color: yellowgreen;
+    text-align: center;
   }
 
   section.destaques div.em-destaques{
-      display: flex;
-      flex-direction: row;
-      margin: auto;
-      justify-content: space-evenly;
-      width: 88%;
+    display: flex;
+    flex-direction: row;
+    margin: auto;
+    justify-content: space-evenly;
+    width: 88%;
   }
 
   section.destaques div.info-destaque{
-      display: flex;
-      flex-direction: column;
-      
+    display: flex;
+    flex-direction: column;
   }
 
   .info-destaque p{
@@ -853,6 +852,7 @@ header nav {
   }
 
 }
+
 @media (min-width: 768px) and (max-width: 1023px){
   .section-form{
     display: flex;
@@ -946,7 +946,6 @@ header nav {
     margin-bottom: 10px;
     background-color: #141D23;
     border-radius: 32px;
-    
   }
 
   .section-form h1{
@@ -970,12 +969,12 @@ header nav {
   }
 
   label{
-  text-align:left;
-  margin-left: 100px;
-  margin-top: 13px;
-  font-size: 16px;
-  color: yellowgreen;
-  display: inline-block;
+    text-align:left;
+    margin-left: 100px;
+    margin-top: 13px;
+    font-size: 16px;
+    color: yellowgreen;
+    display: inline-block;
   }
 
   .input {
@@ -1055,47 +1054,48 @@ header nav {
   .avaliacao span{
     font-size: 22px;
     color: yellowgreen;
-   
   }
+
 }
   
 @media (min-width: 768px) and (max-width:1023px) {
   
-    .avaliacoes{
-      background-color:#141D23;
-      border-radius: 32px;
-    }
-  
-    .avaliacao {
-      display: flex;
-    }
-    
-    .avaliacoes h1 {
-      font-size: 21px;
-      text-align: center;
-      margin: 40px auto;
-      color:yellowgreen;
-    }
-    
-    .avaliacao h2 {
-      margin-bottom: 10px;
-      font-size: 20px;
-      color: yellowgreen;
-      margin-left: 5px;
-    }
-    
-    .avaliacao p{
-      font-size: 17px;
-      color: white;
-      text-align: justify;
-      margin-left: 5px;
-    }
-    
-    .avaliacao span{
-      font-size: 21px;
-      color: yellowgreen;    
-    }
+  .avaliacoes{
+    background-color:#141D23;
+    border-radius: 32px;
   }
+  
+  .avaliacao {
+    display: flex;
+  }
+    
+  .avaliacoes h1 {
+    font-size: 21px;
+    text-align: center;
+    margin: 40px auto;
+    color:yellowgreen;
+  }
+    
+  .avaliacao h2 {
+    margin-bottom: 10px;
+    font-size: 20px;
+    color: yellowgreen;
+    margin-left: 5px;
+  }
+    
+  .avaliacao p{
+    font-size: 17px;
+    color: white;
+    text-align: justify;
+    margin-left: 5px;
+  }
+    
+  .avaliacao span{
+    font-size: 21px;
+    color: yellowgreen;    
+  }
+
+}
 
 @media (min-width: 1024px){
   .avaliacoes{
@@ -1138,9 +1138,8 @@ header nav {
     font-size: 18px;
     color: yellowgreen;
   }
+
 }
-
-
 
 /*Novidades-----------------------------------------------------------------------------------------------------------------*/
 
@@ -1157,7 +1156,6 @@ header nav {
     color: yellowgreen;
     font-size: 30px;
   }
-
 
   .section-novidades .div-novidades{
     display: flex;
@@ -1202,7 +1200,7 @@ header nav {
   
   .button-novidades{
     display: inline-block;
-    border: 2xs solid black;
+    border: 2px solid black;
     width: 80px;
     height: 25px;
     border-radius: 20px;
@@ -1211,8 +1209,8 @@ header nav {
     cursor: pointer;
   }
 
-
 }
+
 @media (min-width: 768px) and (max-width: 1023px){
   .section-novidades{
     display: flex;
@@ -1249,6 +1247,7 @@ header nav {
 
   .article-novidades{
     margin-left: 10px;
+    width: 100%;
   }
 
   .article-novidades p{
@@ -1265,7 +1264,7 @@ header nav {
 
   .button-novidades{
     display: inline-block;
-    border: 2xs solid black;
+    border: 2px solid black;
     width: 80px;
     height: 25px;
     border-radius: 20px;
@@ -1275,6 +1274,7 @@ header nav {
   }
 
 }
+
 @media (min-width: 1024px){
   .section-novidades{
     display: flex;
@@ -1289,7 +1289,6 @@ header nav {
     color: yellowgreen;
     font-size: 30px;
   }
-
 
   .section-novidades .div-novidades{
     display: flex;
@@ -1328,7 +1327,7 @@ header nav {
 
   .button-novidades{
     display: inline-block;
-    border: 2xs solid black;
+    border: 2 solid black;
     width: 80px;
     height: 25px;
     border-radius: 20px;
@@ -1351,67 +1350,59 @@ header nav {
     padding: 2%;
     background: #141D23;
     border-radius: 16px;
-
   }
 
   aside.sobre p{
-  margin-bottom: 2%;
-  font-size: 80%;
-  text-align: justify;
-  color: white;
+    margin-bottom: 2%;
+    font-size: 80%;
+    text-align: justify;
+    color: white;
   }
 
   aside.sobre div.aside-sobre{
-  margin-bottom: 3%;
+    margin-bottom: 3%;
   }
 
   aside.sobre div.aside-redes{
-  width: 40%;
+    width: 40%;
   }
 
   .aside-sobre h3{
-  color: yellowgreen;
-  font-size: 20px;
-  }
-
-  .div-editorial h3{
-  color: yellowgreen;
-  font-size: 20px;
+    color: yellowgreen;
+    font-size: 20px;
   }
 
   .div-editorial p {
-  color: white;
-  font-size: small;
-
+    color: white;
+    font-size: small;
   }
 
   .div-editorial span{
-  color: yellowgreen;
+    color: yellowgreen;
   }
 
   h4{
-  color: yellowgreen;
-  font-size: 20px;
+    color: yellowgreen;
+    font-size: 20px;
   }
 
   div.aside-sobre div.div-editorial img.icone{
-  width: 2.5%;
-  margin-right: 2%;
+    width: 2.5%;
+    margin-right: 2%;
   }
 
 }
 
-
 @media (min-width: 768px) and (max-width: 1023px){
   aside.sobre{
-      width: 90%;
-      height: 480px;
-      margin: auto;
-      display: flex;
-      flex-direction: column;
-      padding: 2%;
-      background: #141D23;
-      border-radius: 16px;
+    width: 90%;
+    height: 480px;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    padding: 2%;
+    background: #141D23;
+    border-radius: 16px;
   }
 
   aside.sobre p{
@@ -1430,11 +1421,6 @@ header nav {
   }
 
   .aside-sobre h3{
-    color: yellowgreen;
-    font-size: 30px;
-  }
-
-  .div-editorial h3{
     color: yellowgreen;
     font-size: 30px;
   }
@@ -1462,15 +1448,15 @@ header nav {
 
 @media (min-width: 1024px){
   aside.sobre{
-      width: 45%;
-      height: 480px;
-      margin: auto;
-      display: flex;
-      flex-direction: column;
-      padding: 1%;
-      background: #141D23;
-      border-radius: 16px;
-      margin-left: 30px;
+    width: 45%;
+    height: 480px;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    padding: 1%;
+    background: #141D23;
+    border-radius: 16px;
+    margin-left: 30px;
   }
 
   aside.sobre p{
@@ -1489,11 +1475,6 @@ header nav {
   }
 
   .aside-sobre h3{
-    color: yellowgreen;
-    font-size: 30px;
-  }
-
-  .div-editorial h3{
     color: yellowgreen;
     font-size: 30px;
   }
@@ -1527,11 +1508,10 @@ header nav {
     margin: auto;
     display: flex;
     flex-direction: column;
-    
   }
 
   section.propagandas aside.prop-laterais img.anuncio-retrato{
-      display: none;
+    display: none;
   }
 
   section.propagandas aside.prop-laterais{
@@ -1542,32 +1522,25 @@ header nav {
   }
 
   section.propagandas div.filmes-oscar{
-      display: flex;
-      flex-direction: column;
-      align-items: center;
-      color: yellowgreen;
-      margin: 2%;
-  }
-
-  div.filmes-oscar article.filmes-oscar{
     display: flex;
     flex-direction: column;
-    margin-top: 10%;
-
+    align-items: center;
+    color: yellowgreen;
+    margin: 2%;
   }
 
   section.propagandas article.top3-filmes {
-      display: flex;
-      width: 95%;
-      height: 20%;
-      margin: auto;
-      border: 1px #1A8CD8  solid;
-      border-radius: 10px;
-      flex-direction: column;
-      padding: 2%;
-      margin-bottom: 1%;
-      font-size: 80%;
-      color: white;
+    display: flex;
+    width: 95%;
+    height: 20%;
+    margin: auto;
+    border: 1px #1A8CD8  solid;
+    border-radius: 10px;
+    flex-direction: column;
+    padding: 2%;
+    margin-bottom: 1%;
+    font-size: 80%;
+    color: white;
   }
 
   section.propagandas article.top3-filmes span{
@@ -1576,9 +1549,6 @@ header nav {
     font-size: 23px;
   }
 
-  article.top3-filmes{
-    width: 5%;
-  }
 }
 
 @media (min-width: 768px) and (max-width: 1023px){
@@ -1588,11 +1558,10 @@ header nav {
     margin: auto;
     display: flex;
     flex-direction: column;
-    
   }
 
   section.propagandas aside.prop-laterais img.anuncio-retrato{
-      display: none;
+    display: none;
   }
 
   section.propagandas aside.prop-laterais{
@@ -1603,30 +1572,25 @@ header nav {
   }
 
   section.propagandas div.filmes-oscar{
-      display: flex;
-      flex-direction: column;
-      align-items: center;
-      color: yellowgreen;
-      margin: 2%;
-  }
-
-  div.filmes-oscar article.filmes-oscar{
     display: flex;
     flex-direction: column;
+    align-items: center;
+    color: yellowgreen;
+    margin: 2%;
   }
 
   section.propagandas article.top3-filmes {
-      display: flex;
-      width: 95%;
-      height: 20%;
-      margin: auto;
-      border: 1px #1A8CD8  solid;
-      border-radius: 10px;
-      flex-direction: column;
-      padding: 2%;
-      margin-bottom: 1%;
-      font-size: 80%;
-      color: white;
+    display: flex;
+    width: 95%;
+    height: 20%;
+    margin: auto;
+    border: 1px #1A8CD8  solid;
+    border-radius: 10px;
+    flex-direction: column;
+    padding: 2%;
+    margin-bottom: 1%;
+    font-size: 80%;
+    color: white;
   }
 
   section.propagandas article.top3-filmes span{
@@ -1635,9 +1599,6 @@ header nav {
     font-size: 23px;
   }
 
-  article.top3-filmes{
-    width: 5%;
-  }
 }
 
 @media (min-width: 1024px){
@@ -1648,13 +1609,11 @@ header nav {
     display: flex;
     flex-direction: row;
     align-items: center;
-    
   }
 
   section.propagandas aside.prop-laterais img.anuncio-retrato{
-      width: 290px;
-      height: 400px;
-
+    width: 290px;
+    height: 400px;
   }
 
   section.propagandas aside.prop-laterais img.anuncio-paisagem{
@@ -1662,29 +1621,23 @@ header nav {
   }
 
   section.propagandas div.filmes-oscar{
-      display: flex;
-      flex-direction: column;
-      align-items: center;
-      margin: 2%;
-      color: yellowgreen;
-  }
-
-  div.filmes-oscar article.filmes-oscar{
     display: flex;
     flex-direction: column;
-    
+    align-items: center;
+    margin: 2%;
+    color: yellowgreen;
   }
 
   section.propagandas article.top3-filmes {
-      display: flex;
-      width: 95%;
-      margin: auto;
-      border: 1px #1A8CD8  solid;
-      border-radius: 10px;
-      flex-direction: column;
-      padding: 2%;
-      margin-bottom: 1%;
-      color: white;
+    display: flex;
+    width: 95%;
+    margin: auto;
+    border: 1px #1A8CD8  solid;
+    border-radius: 10px;
+    flex-direction: column;
+    padding: 2%;
+    margin-bottom: 1%;
+    color: white;
   }
 
   section.propagandas article.top3-filmes span{
@@ -1693,27 +1646,23 @@ header nav {
     font-size: 23px;
   }
 
-  article.top3-filmes{
-  width: 5%;
-  }
 }
-
 
 /* Rodapé-------------------------------------------------------------------------------------------------------------------- */
 
 @media(max-width: 767px){
   footer{
     background-color:#141D23;
-     height: 64px;
+    height: 64px;
      
  }
  
  .rodape{
-     display: flex;
-     justify-content: center;
-     margin-top: 20px;
-     color:white;
-     font-size: 24px;
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+    color:white;
+    font-size: 24px;
  }
 
 }
@@ -1721,16 +1670,16 @@ header nav {
 @media(min-width: 768px) and (max-width: 1023px){
   footer{
     background-color:#141D23;
-     height: 60px;
+    height: 60px;
      
  }
  
  .rodape{
-     display: flex;
-     justify-content: center;
-     margin-top: 15px;
-     color: white;
-     font-size: 30px;
+    display: flex;
+    justify-content: center;
+    margin-top: 15px;
+    color: white;
+    font-size: 30px;
  }
  
 }
@@ -1738,13 +1687,15 @@ header nav {
 @media(min-width:1024px){
   footer{
     background-color:#141D23;
-     height: 70px;
+    height: 70px;
  }
+ 
  .rodape{
-     display: flex;
-     justify-content: center;
-     margin-top: 20px;
-     color:white;
-     font-size: 35px;
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+    color:white;
+    font-size: 35px;
  }
+
 }
