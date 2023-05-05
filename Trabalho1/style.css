@@ -1740,7 +1740,6 @@ header nav {
     background-color:#141D23;
      height: 70px;
  }
- 
  .rodape{
      display: flex;
      justify-content: center;
@@ -1748,5 +1747,4 @@ header nav {
      color:white;
      font-size: 35px;
  }
- 
 }
