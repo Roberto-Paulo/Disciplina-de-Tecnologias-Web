@@ -620,7 +620,8 @@ header nav {
 
 
 
-/* Destaques ------------Mudar essa parte inicial---------------------------------------------------------------------------------------------- */
+/* Destaques ---------------------------------------------------------------------------------------------------------- */
+
 @media (max-width: 767px){
   section.destaques{
     width: 100%;
@@ -637,6 +638,7 @@ header nav {
     align-self: center;
     font-size: 35px;
     color: yellowgreen;
+    text-align: center;
   }
 
   section.destaques div.em-destaques{
@@ -767,6 +769,7 @@ header nav {
     font-size: 20px;
     color: yellowgreen;
   }
+
 }
 
 /*Formulário---------------------------------------------------------------------------------------------------------------*/
@@ -776,9 +779,12 @@ header nav {
     display: flex;
     flex-direction: column;
     justify-content: center;
+    text-align: center;
     height: 100%;
     margin-top: 10px;
     margin-bottom: 10px;
+    margin-left: 5px;
+    margin-right: 5px;
     background-color: #141D23;
     border-radius: 32px;
   }
@@ -827,8 +833,7 @@ header nav {
     height: 90px;
     resize: none;
     background-color: transparent;
-    color: black;
-    border: 1px solid black;
+    border: 1px solid lightblue;
     outline: none;
     border-radius: 10px;
     display: block;
@@ -861,6 +866,8 @@ header nav {
     height: 100%;
     margin-top: 10px;
     margin-bottom: 10px;
+    margin-left: 10px;
+    margin-right: 10px;
     background-color: #141D23;
     border-radius: 32px;
   }
@@ -910,8 +917,7 @@ header nav {
     height: 90px;
     resize: none;
     background-color: transparent;
-    color: black;
-    border: 1px solid black;
+    border: 1px solid lightblue;
     outline: none;
     border-radius: 10px;
     display: block;
@@ -944,6 +950,8 @@ header nav {
     height: 480px;
     margin-top: 10px;
     margin-bottom: 10px;
+    margin-left: 20px;
+    margin-right: 20px;
     background-color: #141D23;
     border-radius: 32px;
   }
@@ -951,6 +959,7 @@ header nav {
   .section-form h1{
     display: flex;
     justify-content: center;
+    text-align: center;
     color: yellowgreen;
     font-size: 30px;
     margin-top: 32px;
@@ -992,8 +1001,7 @@ header nav {
     height: 100px;
     resize: none;
     background-color: transparent;
-    color: black;
-    border: 1px solid black;
+    border: 1px solid lightblue;
     outline: none;
     border-radius: 10px;
     display: block;
@@ -1024,6 +1032,8 @@ header nav {
   .avaliacoes{
     background-color:#141D23;
     border-radius: 32px;
+    margin-left: 5px;
+    margin-right: 5px;
   }
 
   .avaliacao {
@@ -1059,10 +1069,11 @@ header nav {
 }
   
 @media (min-width: 768px) and (max-width:1023px) {
-  
   .avaliacoes{
     background-color:#141D23;
     border-radius: 32px;
+    margin-left: 10px;
+    margin-right: 10px;
   }
   
   .avaliacao {
@@ -1101,6 +1112,8 @@ header nav {
   .avaliacoes{
     background-color:#141D23;
     border-radius: 30px;
+    margin-left: 20px;
+    margin-right: 20px;
   }
 
   .avaliacoes1 {
@@ -1327,7 +1340,7 @@ header nav {
 
   .button-novidades{
     display: inline-block;
-    border: 2 solid black;
+    border: 2px solid black;
     width: 80px;
     height: 25px;
     border-radius: 20px;
@@ -1350,6 +1363,7 @@ header nav {
     padding: 2%;
     background: #141D23;
     border-radius: 16px;
+    margin-bottom: 20px;
   }
 
   aside.sobre p{
@@ -1403,6 +1417,7 @@ header nav {
     padding: 2%;
     background: #141D23;
     border-radius: 16px;
+    margin-bottom: 20px;
   }
 
   aside.sobre p{
@@ -1521,6 +1536,10 @@ header nav {
     justify-content: center;
   }
 
+  section.propagandas h1{
+    text-align: center;
+  }
+
   section.propagandas div.filmes-oscar{
     display: flex;
     flex-direction: column;
@@ -1534,13 +1553,14 @@ header nav {
     width: 95%;
     height: 20%;
     margin: auto;
-    border: 1px #1A8CD8  solid;
+    border: 1px lightblue solid;
     border-radius: 10px;
     flex-direction: column;
     padding: 2%;
     margin-bottom: 1%;
     font-size: 80%;
     color: white;
+    text-align: justify;
   }
 
   section.propagandas article.top3-filmes span{
@@ -1571,6 +1591,10 @@ header nav {
     justify-content: center;
   }
 
+  section.propagandas h1{
+    text-align: center;
+  }
+
   section.propagandas div.filmes-oscar{
     display: flex;
     flex-direction: column;
@@ -1584,13 +1608,14 @@ header nav {
     width: 95%;
     height: 20%;
     margin: auto;
-    border: 1px #1A8CD8  solid;
+    border: 1px lightblue solid;
     border-radius: 10px;
     flex-direction: column;
     padding: 2%;
     margin-bottom: 1%;
     font-size: 80%;
     color: white;
+    text-align: justify;
   }
 
   section.propagandas article.top3-filmes span{
@@ -1620,6 +1645,11 @@ header nav {
     display: none;
   }
 
+  section.propagandas h1{
+    text-align: center;
+    width: 110%;
+  }
+
   section.propagandas div.filmes-oscar{
     display: flex;
     flex-direction: column;
@@ -1632,12 +1662,13 @@ header nav {
     display: flex;
     width: 95%;
     margin: auto;
-    border: 1px #1A8CD8  solid;
+    border: 1px lightblue solid;
     border-radius: 10px;
     flex-direction: column;
     padding: 2%;
     margin-bottom: 1%;
     color: white;
+    text-align: justify;
   }
 
   section.propagandas article.top3-filmes span{
@@ -1654,7 +1685,6 @@ header nav {
   footer{
     background-color:#141D23;
     height: 64px;
-     
  }
  
  .rodape{
@@ -1662,7 +1692,8 @@ header nav {
     justify-content: center;
     margin-top: 20px;
     color:white;
-    font-size: 24px;
+    font-size: 20px;
+    text-align: center;
  }
 
 }
@@ -1671,7 +1702,6 @@ header nav {
   footer{
     background-color:#141D23;
     height: 60px;
-     
  }
  
  .rodape{
