@@ -622,6 +622,12 @@ header nav {
 
 /* Destaques ---------------------------------------------------------------------------------------------------------- */
 
+/* Em telas com largura máxima de 767px, a section com a classe destaques terá 100% de largura e 30% de altura. 
+Seu conteúdo será exibido em coluna e o título h2 será centralizado. O conteúdo com a classe em-destaques será exibido em coluna 
+e terá suas imagens com tamanho de 280x380 pixels. O conteúdo com a classe info-destaque será exibido em coluna e 
+terá um tamanho de fonte pequeno para os parágrafos e tamanho um pouco maior para o texto destacado.
+ */
+
 @media (max-width: 767px){
   section.destaques{
     width: 100%;
@@ -674,6 +680,12 @@ header nav {
   }
 
 }
+
+/* Em telas com largura mínima de 768px e máxima de 1023px, a section com a classe destaques terá 100% de largura e 40% de altura.
+ O conteúdo com a classe em-destaques será exibido em coluna e terá suas imagens com tamanho de 350x250 pixels. 
+ O conteúdo com a classe info-destaque será exibido em coluna e terá um tamanho de fonte pequeno para os parágrafos e 
+ tamanho um pouco maior para o texto destacado.
+ */
 
 @media (min-width: 768px) and (max-width: 1023px){
   section.destaques{
@@ -729,6 +741,11 @@ header nav {
 
 }
 
+/* Em telas com largura mínima de 1024px, a section com a classe destaques terá 100% de largura e 40% de altura. 
+O conteúdo com a classe em-destaques será exibido em linha, distribuído igualmente com espaçamento adequado. 
+O tamanho das imagens é mantido como 350x250 pixels. O conteúdo com a classe info-destaque será exibido em coluna e 
+terá um tamanho de fonte pequeno para os parágrafos e tamanho um pouco maior para o texto destacado. */
+
 @media (min-width: 1024px){
   section.destaques{
     width: 100%;
@@ -773,6 +790,10 @@ header nav {
 }
 
 /*Formulário---------------------------------------------------------------------------------------------------------------*/
+
+/* Em larguras de tela de até 767 pixels, o elemento .section-form é exibido como uma coluna, com conteúdo centralizado 
+e algum espaçamento nas margens. Os elementos do formulário são estilizados com texto branco em um fundo transparente. 
+O botão enviar tem fundo branco e texto preto. */
 
 @media (max-width: 767px){
   .section-form{
@@ -858,6 +879,10 @@ header nav {
 
 }
 
+/* Entre 768 e 1023 pixels de largura, o formulário .section ainda é exibido como uma coluna, mas com um tamanho de fonte maior 
+e mais margem. O elemento .section-form h1 também possui um tamanho de fonte maior e uma margem adicional no lado esquerdo. 
+O campo de entrada de texto é mais largo e os elementos do formulário têm um pouco mais de margem. */
+
 @media (min-width: 768px) and (max-width: 1023px){
   .section-form{
     display: flex;
@@ -941,6 +966,11 @@ header nav {
   }
 
 }
+
+/* Em larguras de tela maiores que 1024 pixels, o elemento .section-form é exibido como uma linha. 
+O elemento .section-form h1 tem texto centralizado. O formulário é exibido como uma coluna, ocupando metade da largura da tela. 
+Os elementos do rótulo têm mais margem e o campo de entrada não tem margem direita. O elemento .elenco-textarea tem uma largura 
+um pouco maior, e o botão de envio do formulário ainda está centralizado e tem o mesmo estilo dos outros tamanhos de tela. */ 
 
 @media (min-width: 1024px){
   .section-form{
@@ -1028,6 +1058,11 @@ header nav {
 
 /*Ultimas Avaliações----------------------------------------------------------------------------------------------------------*/
 
+/* Em telas com largura máxima de 767px, a classe .avaliacao é definida como um elemento flexível, com o título .avaliacoes h1 
+definido com fonte grande e amarela, alinhada centralmente, com margem superior de 40 pixels. O subtítulo .avaliacao h2 
+e o parágrafo .avaliacao p são definidos com fonte menor e cor branca, justificados e com margem esquerda de 5 pixels, 
+e o span .avaliacao span com uma fonte maior e cor verde-amarela. */ 
+
 @media (max-width:767px){
   .avaliacoes{
     background-color:#141D23;
@@ -1068,6 +1103,9 @@ header nav {
 
 }
   
+/* Em telas com largura mínima de 768px e máxima de 1023px, o estilo é semelhante ao primeiro bloco, mas com fontes menores 
+e subtítulo .avaliacao h2 em uma fonte ainda menor. */
+
 @media (min-width: 768px) and (max-width:1023px) {
   .avaliacoes{
     background-color:#141D23;
@@ -1107,6 +1145,10 @@ header nav {
   }
 
 }
+
+/* Em telas com largura mínima de 1024px, o estilo é diferente, com a seção de avaliações dividida em duas colunas usando 
+a classe .avaliacoes1, separadas por uma margem de 20 pixels. Os outros elementos são semelhantes ao segundo bloco, 
+com fontes menores e subtítulo .avaliacao h2 em uma fonte ainda menor. A borda tem um raio menor, de 30 pixels. */
 
 @media (min-width: 1024px){
   .avaliacoes{
@@ -1155,6 +1197,11 @@ header nav {
 }
 
 /*Novidades-----------------------------------------------------------------------------------------------------------------*/
+
+/* Em telas com largura máxima de 767px. Nesse caso, a seção de novidades é exibida em colunas, com uma altura fixa de 1280 pixels.
+ Cada "novidade" é exibida como um bloco com altura de 110 pixels, e uma imagem centralizada. O título e texto da novidade 
+ são exibidos em um artigo abaixo da imagem, com fontes menores. Há um botão de estilo, com borda, largura e altura definidas, 
+ e posicionado na parte inferior da novidade. */
 
 @media (max-width: 767px){
   .section-novidades{
@@ -1224,6 +1271,11 @@ header nav {
 
 }
 
+/* Em telas com largura mínima de 768px e máxima de 1023px. Nesse caso, a seção de novidades continua sendo exibida em colunas,
+ com uma altura fixa de 1440 pixels. Cada "novidade" é exibida como um bloco flexível com altura de 112 pixels 
+ e uma imagem alinhada à esquerda. O título e texto da novidade são exibidos em um artigo ao lado da imagem, com fontes maiores.  
+ O botão de estilo é o mesmo. */
+
 @media (min-width: 768px) and (max-width: 1023px){
   .section-novidades{
     display: flex;
@@ -1288,6 +1340,11 @@ header nav {
 
 }
 
+/* Em telas com largura mínima de 1024px. Nesse caso, a seção de novidades é exibida em duas colunas,e cada coluna ocupa 
+50% da largura total da tela. Com altura fixa de 640 pixels. Cada "novidade" é exibida como um bloco flexível com altura 
+de 112 pixels e uma imagem alinhada à esquerda. O título e texto da novidade são exibidos em um artigo ao lado da imagem, 
+com fontes maiores.  O botão de estilo é o mesmo.  */
+
 @media (min-width: 1024px){
   .section-novidades{
     display: flex;
@@ -1351,7 +1408,12 @@ header nav {
 
 }
 
-/*Sobre/Editorial-------------------------------------------------------------------------------------------------------------*/
+/*Sobre/Editorial/Redes Sociais-------------------------------------------------------------------------------------------*/
+
+/* Em telas com largura máxima de 767 pixels. Ela define que a largura da seção será de 90% da largura da janela do navegador, 
+com altura de 480 pixels, e será centralizada com margem automática. um layout de coluna para os elementos dentro da seção. 
+As cores de fundo e texto são definidas para a seção e seus elementos internos. Há também algumas regras para ajustar o tamanho 
+e o espaçamento dos elementos dentro da seção.  */
 
 @media(max-width: 767px){
   aside.sobre{
@@ -1407,6 +1469,10 @@ header nav {
 
 }
 
+/* Em telas com largura mínima de 768 pixels e máxima de 1023 pixels. Nessa faixa de largura, as regras são semelhantes ao 
+primeiro bloco. A largura e altura da seção são as mesmas, mas as fontes dos textos são aumentadas. 
+Além disso, a largura da imagem dentro da seção é ligeiramente maior. */
+
 @media (min-width: 768px) and (max-width: 1023px){
   aside.sobre{
     width: 90%;
@@ -1460,6 +1526,10 @@ header nav {
   }
 
 }
+
+/* Em telas com largura mínima de 1024 pixels. Nessa faixa de largura, a seção "sobre" é mais estreita, 
+com largura de 45% da janela do navegador, e é deslocada para a direita com margem esquerda de 30 pixels. 
+As outras regras de estilo são semelhantes ao segundo bloco. */
 
 @media (min-width: 1024px){
   aside.sobre{
@@ -1516,6 +1586,12 @@ header nav {
 }
 
 /* Propagandas--------------------------------------------------------------------------------------------------------------- */
+
+/* Em telas com largura máxima de 767 pixels. Nesse caso, a seção "propagandas" tem uma largura de 90% e uma altura de 
+50% em relação à tela. A seção é centralizada na tela e possui um layout de coluna. Algumas classes dentro da seção também 
+são estilizadas, como "prop-laterais", "h1", "div.filmes-oscar", "article.top3-filmes" e "span". Além disso, há uma regra 
+que oculta imagens com a classe "anuncio-retrato" dentro do elemento "aside.prop-laterais". */
+
 @media (max-width: 767px){
   section.propagandas{
     width: 90%;
@@ -1570,6 +1646,10 @@ header nav {
   }
 
 }
+
+/* Em telas com largura mínima de 768 pixels e máxima de 1023 pixels. Os estilos são semelhantes ao primeiro bloco, 
+com algumas alterações. As imagens com a classe "anuncio-retrato" continuam ocultas. A largura do título "h1" 
+é aumentada para 110%. */
 
 @media (min-width: 768px) and (max-width: 1023px){
   section.propagandas{
@@ -1626,6 +1706,11 @@ header nav {
 
 }
 
+/* Em telas com largura mínima de 1024 pixels. Nesse caso, a seção "propagandas" tem um layout de linha, 
+com os elementos alinhados verticalmente. A imagem com a classe "anuncio-retrato" tem um tamanho específico definido. 
+As imagens com a classe "anuncio-paisagem" são ocultadas. O título "h1" tem sua largura aumentada para 110%.
+ */
+
 @media (min-width: 1024px){
   section.propagandas{
     width: 90%;
@@ -1634,11 +1719,6 @@ header nav {
     display: flex;
     flex-direction: row;
     align-items: center;
-  }
-
-  section.propagandas aside.prop-laterais img.anuncio-retrato{
-    width: 290px;
-    height: 400px;
   }
 
   section.propagandas aside.prop-laterais img.anuncio-paisagem{
@@ -1681,6 +1761,10 @@ header nav {
 
 /* Rodapé-------------------------------------------------------------------------------------------------------------------- */
 
+/* Em telas com largura máxima de 767 pixels. Onde o rodapé tem fundo cinza escuro e altura de 64 pixels. 
+A classe ".rodape" é configurada para ser exibida com flexbox centralizado, com um espaçamento de margem superior de 20 pixels, 
+texto branco e tamanho de fonte de 24 pixels. */
+
 @media(max-width: 767px){
   footer{
     background-color:#141D23;
@@ -1698,6 +1782,10 @@ header nav {
 
 }
 
+/* Em telas com largura mínima de 768 pixels e máxima de 1023 pixels. Onde o rodapé tem fundo cinza escuro e altura de 60 pixels. 
+A classe ".rodape" é configurada da mesma forma que na primeira regra, mas com um espaçamento de margem superior de 15 pixels 
+e um tamanho de fonte maior de 30 pixels. */
+
 @media(min-width: 768px) and (max-width: 1023px){
   footer{
     background-color:#141D23;
@@ -1713,6 +1801,9 @@ header nav {
  }
  
 }
+
+/* Em telas com largura mínima de 1024 pixels. Onde o rodapé tem fundo cinza escuro e altura de 70 pixels. 
+A classe ".rodape" é configurada da mesma forma que nas outras regras, mas com um tamanho de fonte ainda maior de 35 pixels. */
 
 @media(min-width:1024px){
   footer{
